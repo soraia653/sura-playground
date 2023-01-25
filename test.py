@@ -1,6 +1,6 @@
 from dotenv import dotenv_values
 
-config = dotenv_values("src/.env.dev")
+config = dotenv_values("src/.env.prod")
 
 user = config['ADMIN']
 pw = config['PASSWORD']
